@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-import logoAsset from "@/assets/zhixin-logo.png.asset.json";
+<img src="/zhixin-logo.png" alt="智信科技" />
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
