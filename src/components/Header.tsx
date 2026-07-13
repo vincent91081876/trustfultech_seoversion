@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-<img src="/zhixin-logo.png" alt="智信科技" />
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -28,7 +27,7 @@ const Header = () => {
               aria-hidden="true"
             >
               <img
-                src={logoAsset.url}
+                src="/zhixin-logo.png"
                 alt="智信網路科技 Logo"
                 className="w-full h-full object-contain"
               />
