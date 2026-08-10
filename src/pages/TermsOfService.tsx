@@ -83,7 +83,7 @@ const TermsOfService = () => {
           <h2>十、聯絡方式</h2>
           <p>如您對本服務條款有任何疑問，歡迎聯絡我們：</p>
           <ul>
-            <li>電子郵件：contact@zhixin.com.tw</li>
+            <li>電子郵件：contact@trustfultech.org</li>
           </ul>
         </article>
       </div>

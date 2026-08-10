@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import logoAsset from "@/assets/zhixin-logo.png.asset.json";
 
 const Footer = () => {
   return (
@@ -13,7 +12,7 @@ const Footer = () => {
               aria-hidden="true"
             >
               <img
-                src={logoAsset.url}
+                src="/zhixin-logo.png"
                 alt="智信網路科技 Logo"
                 className="w-full h-full object-contain"
               />

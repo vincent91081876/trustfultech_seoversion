@@ -1,8 +1,4 @@
 import { Mail, Linkedin } from "lucide-react";
-import zhangAvatar from "@/assets/zhang-avatar.jpg.asset.json";
-import antonyAvatar from "@/assets/antony-avatar.jpg.asset.json";
-import jimmyAvatar from "@/assets/jimmy-avatar.jpg.asset.json";
-import jecyAvatar from "@/assets/jecy-avatar.png.asset.json";
 
 const team = [
   {
@@ -10,7 +6,6 @@ const team = [
     role: "執行長 / 創辦人",
     bio: "擁有超過15年網路科技與數位行銷經驗，帶領團隊深耕SEO與AI搜尋優化領域。",
     initial: "張",
-    photo: zhangAvatar.url,
   },
 
   {
@@ -18,14 +13,12 @@ const team = [
     role: "技術總監",
     bio: "專精於AI技術應用與系統架構設計，主導GEO與AEO核心優化技術研發。",
     initial: "A",
-    photo: antonyAvatar.url,
   },
   {
     name: "Jimmy",
     role: "SEO 策略顧問",
     bio: "資深SEO策略專家，協助超過300家企業客戶提升搜尋排名與品牌能見度。",
     initial: "J",
-    photo: jimmyAvatar.url,
   },
   {
     name: "Vincent",
@@ -38,7 +31,6 @@ const team = [
     role: "系統開發工程師",
     bio: "全端開發專家，負責客製化傳直銷系統與AI輔助軟體開發專案。",
     initial: "j",
-    photo: jecyAvatar.url,
   },
 ];
 

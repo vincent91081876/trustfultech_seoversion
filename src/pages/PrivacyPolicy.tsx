@@ -74,7 +74,7 @@ const PrivacyPolicy = () => {
             如您對本隱私權政策有任何疑問，歡迎透過以下方式聯繫我們：
           </p>
           <ul>
-            <li>電子郵件：contact@zhixin.com.tw</li>
+            <li>電子郵件：contact@trustfultech.org</li>
           </ul>
         </article>
       </div>

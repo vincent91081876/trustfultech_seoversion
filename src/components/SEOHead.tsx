@@ -8,8 +8,8 @@ const SEOHead = () => {
       "@type": "Organization",
       "name": "智信網路科技有限公司",
       "alternateName": "Zhixin Network Technology Co., Ltd.",
-      "url": "https://zhixin.com.tw",
-      "logo": "https://zhixin.com.tw/logo.png",
+      "url": "https://trustfultech.org",
+      "logo": "https://trustfultech.org/logo.png",
       "description": "智信網路科技提供網站SEO優化、AI SEO、GEO生成式引擎優化、AEO答案引擎優化、傳直銷系統及軟硬體安裝等全方位搜尋優化解決方案。",
       "foundingDate": "2014",
       "contactPoint": {
@@ -35,14 +35,14 @@ const SEOHead = () => {
       "@context": "https://schema.org",
       "@type": "ProfessionalService",
       "name": "智信網路科技有限公司",
-      "image": "https://zhixin.com.tw/logo.png",
+      "image": "https://trustfultech.org/logo.png",
       "priceRange": "$$",
       "address": {
         "@type": "PostalAddress",
         "addressCountry": "TW"
       },
       "telephone": "+886-2-XXXX-XXXX",
-      "url": "https://zhixin.com.tw",
+      "url": "https://trustfultech.org",
       "openingHoursSpecification": {
         "@type": "OpeningHoursSpecification",
         "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
@@ -167,7 +167,7 @@ const SEOHead = () => {
       "@context": "https://schema.org",
       "@type": "WebSite",
       "name": "智信網路科技",
-      "url": "https://zhixin.com.tw",
+      "url": "https://trustfultech.org",
       "description": "智信網路科技有限公司 - 網站SEO優化、AI SEO、GEO生成式引擎優化、AEO答案引擎優化、傳直銷系統開發專家",
       "publisher": {
         "@type": "Organization",
