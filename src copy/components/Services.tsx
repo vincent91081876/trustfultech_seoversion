@@ -5,6 +5,9 @@ import {
   Target,
   TrendingUp,
   Code2,
+  Database,
+  Store,
+  LayoutDashboard,
   ArrowUpRight,
 } from "lucide-react";
 
@@ -57,6 +60,30 @@ const services = [
     keywords: "AI軟體開發, AI輔助開發, 客製化軟體, 程式開發, AI編程",
     featured: false,
   },
+  {
+    icon: Database,
+    title: "ERP 企業資源規劃",
+    description: "導入與客製化企業資源規劃系統，整合進銷存、財務、生產與人資等核心流程，幫助企業提升營運效率、降低成本。",
+    features: ["進銷存管理", "財務管理模組", "流程自動化"],
+    keywords: "ERP, 企業資源規劃, ERP系統, 進銷存, 管理系統",
+    featured: false,
+  },
+  {
+    icon: Store,
+    title: "POS 銷售系統",
+    description: "客製化 POS 銷售點管理系統，支援門市結帳、庫存即時管理、會員與促銷活動，整合線上線下銷售數據。",
+    features: ["門市結帳", "庫存即時管理", "會員促銷整合"],
+    keywords: "POS, POS系統, 銷售點管理, 結帳系統, 門市系統",
+    featured: false,
+  },
+  {
+    icon: LayoutDashboard,
+    title: "客製化平台開發",
+    description: "依企業需求量身打造網站與應用平台，從需求分析、UI/UX 設計到開發部署，提供完整的一站式開發服務。",
+    features: ["需求分析", "UI/UX 設計", "網站應用開發"],
+    keywords: "客製化平台, 平台開發, 網站開發, 應用程式開發",
+    featured: false,
+  },
 ];
 
 const Services = () => {
@@ -72,7 +99,7 @@ const Services = () => {
             <span className="gradient-text-wide">專業服務項目</span>
           </h2>
           <p className="text-muted-foreground text-lg">
-            六大核心服務，涵蓋SEO、GEO、AEO優化，全方位滿足您的AI搜尋優化需求
+            九大核心服務，涵蓋SEO、GEO、AEO優化與ERP、POS系統開發，全方位滿足您的數位轉型需求
           </p>
         </header>
 

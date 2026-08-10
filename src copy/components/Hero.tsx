@@ -43,7 +43,7 @@ const Hero = () => {
           >
             <span className="gradient-text-wide">智信網路科技</span>
             <br />
-            <span className="text-foreground">SEO・GEO・AEO 優化專家</span>
+            <span className="text-foreground">AI搜尋優化・系統開發 專家</span>
           </h1>
 
           {/* Subheadline */}
