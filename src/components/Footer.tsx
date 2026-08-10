@@ -50,8 +50,8 @@ const Footer = () => {
         {/* SEO Footer Text */}
         <div className="mt-6 pt-6 border-t border-border/50 text-center">
           <p className="text-xs text-muted-foreground/70">
-            智信網路科技提供專業的網站SEO優化、AI SEO、GEO生成式引擎優化、AEO答案引擎優化、傳直銷系統開發及AI輔助軟體開發服務。
-            服務範圍涵蓋台灣全區，致力於協助企業在AI搜尋時代脫穎而出。
+            智信網路科技提供專業的ERP系統開發、POS系統服務、客製化平台開發，以及網站SEO優化、AI SEO、GEO生成式引擎優化、AEO答案引擎優化、傳直銷系統開發與AI輔助軟體開發服務。
+            服務範圍涵蓋台灣全區，致力於協助企業數位轉型，在AI搜尋時代脫穎而出。
           </p>
         </div>
       </div>

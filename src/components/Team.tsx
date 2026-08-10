@@ -1,4 +1,3 @@
-import { Mail, Linkedin } from "lucide-react";
 
 const team = [
   {
@@ -89,23 +88,6 @@ const Team = () => {
               <p className="text-xs text-muted-foreground leading-relaxed mb-4">
                 {member.bio}
               </p>
-
-              <div className="flex justify-center gap-3 pt-3 border-t border-border">
-                <a
-                  href="#contact"
-                  className="text-muted-foreground hover:text-primary transition-colors"
-                  aria-label={`聯絡 ${member.name}`}
-                >
-                  <Mail className="w-4 h-4" />
-                </a>
-                <a
-                  href="#contact"
-                  className="text-muted-foreground hover:text-primary transition-colors"
-                  aria-label={`${member.name} LinkedIn`}
-                >
-                  <Linkedin className="w-4 h-4" />
-                </a>
-              </div>
             </article>
           ))}
         </div>

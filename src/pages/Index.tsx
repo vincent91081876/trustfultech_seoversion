@@ -9,7 +9,6 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import SEOHead from "@/components/SEOHead";
 import BackToTop from "@/components/BackToTop";
-import FloatingContact from "@/components/FloatingContact";
 
 const Index = () => {
   return (
@@ -27,7 +26,6 @@ const Index = () => {
       </main>
       <Footer />
       <BackToTop />
-      <FloatingContact />
     </div>
   );
 };
