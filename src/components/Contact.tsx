@@ -31,8 +31,8 @@ const Contact = () => {
                   <span className="text-primary">您的數位競爭力？</span>
                 </h2>
                 <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
-                  無論您是想提升 Google 搜尋排名、優化 GEO 生成式引擎曝光，還是強化 AEO 答案引擎能見度，
-                  智信網路科技的專業團隊都能為您量身打造最適合的解決方案。
+                  無論您是需要 ERP 企業資源規劃、POS 銷售系統或客製化平台開發，
+                  還是想強化 SEO、GEO、AEO 搜尋能見度，智信網路科技的專業團隊都能為您量身打造最適合的解決方案。
                 </p>
 
                 <div className="space-y-6">

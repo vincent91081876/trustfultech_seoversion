@@ -4,7 +4,7 @@ const team = [
   {
     name: "張信之",
     role: "執行長 / 創辦人",
-    bio: "擁有超過15年網路科技與數位行銷經驗，帶領團隊深耕SEO與AI搜尋優化領域。",
+    bio: "擁有超過15年網路科技與數位行銷經驗，帶領專業團隊為企業打造數位解決方案。",
     initial: "張",
     photo: "/team/zhang-avatar.png",
   },
@@ -12,7 +12,7 @@ const team = [
   {
     name: "Antony",
     role: "技術總監",
-    bio: "專精於AI技術應用與系統架構設計，主導GEO與AEO核心優化技術研發。",
+    bio: "專精於AI技術應用與系統架構設計，主導ERP、POS系統與客製化平台核心技術研發。",
     initial: "A",
     photo: "/team/antony-avatar.jpg",
   },

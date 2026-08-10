@@ -43,7 +43,7 @@ const Hero = () => {
           >
             <span className="gradient-text-wide">智信網路科技</span>
             <br />
-            <span className="text-foreground">AI搜尋優化・系統開發 專家</span>
+            <span className="text-foreground">系統開發・AI搜尋優化 專家</span>
           </h1>
 
           {/* Subheadline */}
@@ -58,8 +58,8 @@ const Hero = () => {
             className="text-lg md:text-xl text-foreground/80 max-w-2xl mx-auto mb-10 animate-fade-in"
             style={{ animationDelay: "0.25s" }}
           >
-            從傳統 SEO 到 GEO 生成式引擎優化，從 AEO 答案引擎到 AI 智能排名。
-            智信網路科技提供全方位搜尋優化解決方案，助您的企業在 AI 搜尋時代脫穎而出。
+            專精 ERP 企業資源規劃、POS 系統服務與客製化平台開發，為企業打造專屬數位解決方案。
+            同時提供從傳統 SEO 到 GEO 生成式引擎優化、AEO 答案引擎到 AI 智能排名的全方位搜尋優化服務，助您的企業在 AI 搜尋時代脫穎而出。
           </p>
 
           {/* CTA Buttons */}

@@ -33,7 +33,7 @@ const Header = () => {
               />
             </div>
             <span className="font-display font-bold text-lg md:text-xl text-foreground">
-              智信科技
+              智信網路科技有限公司
             </span>
           </a>
 

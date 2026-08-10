@@ -43,21 +43,22 @@ const About = () => {
             <p className="text-muted-foreground text-lg mb-6 leading-relaxed">
               <strong className="text-foreground">智信網路科技有限公司</strong>
               成立以來，專注於為台灣企業提供最前沿的數位解決方案。
-              從傳統 SEO 優化到最新的 GEO 生成式引擎與 AEO 答案引擎技術，
-              我們始終走在搜尋優化的最前端。
+              以 ERP 企業資源規劃、POS 銷售系統與客製化平台開發為核心，
+              我們幫助企業打造專屬的數位轉型基礎。
             </p>
 
             <p className="text-muted-foreground mb-8 leading-relaxed">
-              我們相信，科技應該為人服務。無論您是想提升網站在 Google 的搜尋排名，
-              還是希望在 ChatGPT、Perplexity 等 AI 搜尋引擎中獲得曝光，
-              智信的專業團隊都能為您量身打造最適合的優化策略。
+              我們相信，科技應該為人服務。無論您需要 ERP、POS 等企業管理系統，
+              還是希望透過 SEO、GEO、AEO 在 Google 與 ChatGPT、Perplexity 等 AI 搜尋引擎中獲得曝光，
+              智信的專業團隊都能為您量身打造最適合的解決方案。
             </p>
 
             {/* Checklist */}
             <ul className="space-y-4" aria-label="我們的優勢">
               {[
                 "10年以上數位行銷經驗",
-                "專精SEO、GEO、AEO三軌優化策略",
+                "專精ERP、POS系統與客製化平台開發",
+                "SEO、GEO、AEO三軌優化策略",
                 "客製化解決方案，不做罐頭服務",
                 "透明報價，完善售後支援",
               ].map((item) => (

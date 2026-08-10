@@ -13,54 +13,6 @@ import {
 
 const services = [
   {
-    icon: Search,
-    title: "網站 SEO 優化",
-    description: "提升網站 Google 搜尋排名，增加自然流量。包含技術 SEO、內容優化、關鍵字研究等完整服務。",
-    features: ["關鍵字優化", "技術SEO診斷", "內容優化策略"],
-    keywords: "SEO優化, 搜尋引擎優化, Google排名, 網站優化",
-    featured: false,
-  },
-  {
-    icon: Bot,
-    title: "AI SEO 智能優化",
-    description: "運用人工智慧技術自動化分析與優化流程。針對 ChatGPT、Perplexity、Google AI Overview 等 AI 搜尋引擎進行智能優化。",
-    features: ["AI 內容生成", "智能排名分析", "AI搜尋引擎優化"],
-    keywords: "AI SEO, 人工智慧SEO, ChatGPT優化, AI搜尋優化",
-    featured: true,
-  },
-  {
-    icon: Brain,
-    title: "GEO 生成式引擎優化",
-    description: "針對 ChatGPT、Perplexity、Google AI Overview 等生成式 AI 搜尋引擎進行深度優化，讓您的企業在 AI 搜尋時代獲得最大曝光。",
-    features: ["AI 搜尋引擎優化", "生成式內容策略", "品牌 AI 能見度提升"],
-    keywords: "GEO, 生成式引擎優化, AI SEO, ChatGPT優化, Perplexity優化",
-    featured: false,
-  },
-  {
-    icon: Target,
-    title: "AEO 答案引擎優化",
-    description: "優化網站內容以獲得精選摘要與零點擊搜尋結果。針對語音搜尋、知識圖譜與答案引擎進行結構化資料標記與內容優化。",
-    features: ["精選摘要優化", "結構化資料標記", "語音搜尋優化"],
-    keywords: "AEO, 答案引擎優化, 精選摘要, 語音搜尋, 零點擊搜尋",
-    featured: false,
-  },
-  {
-    icon: TrendingUp,
-    title: "傳直銷系統",
-    description: "客製化傳直銷管理系統開發，包含完整會員管理、獎金自動計算與業績追蹤功能，支援多層次行銷運作。",
-    features: ["會員管理系統", "獎金自動計算", "業績報表分析"],
-    keywords: "傳直銷系統, MLM系統, 直銷軟體, 會員管理",
-    featured: false,
-  },
-  {
-    icon: Code2,
-    title: "AI 輔助軟體開發",
-    description: "運用 AI 技術加速軟體開發流程，從需求分析、程式撰寫到測試部署，提供高效率、高品質的客製化軟體開發服務。",
-    features: ["AI 程式生成", "客製化系統開發", "快速原型設計"],
-    keywords: "AI軟體開發, AI輔助開發, 客製化軟體, 程式開發, AI編程",
-    featured: false,
-  },
-  {
     icon: Database,
     title: "ERP 企業資源規劃",
     description: "導入與客製化企業資源規劃系統，整合進銷存、財務、生產與人資等核心流程，幫助企業提升營運效率、降低成本。",
@@ -84,6 +36,54 @@ const services = [
     keywords: "客製化平台, 平台開發, 網站開發, 應用程式開發",
     featured: false,
   },
+  {
+    icon: TrendingUp,
+    title: "傳直銷系統",
+    description: "客製化傳直銷管理系統開發，包含完整會員管理、獎金自動計算與業績追蹤功能，支援多層次行銷運作。",
+    features: ["會員管理系統", "獎金自動計算", "業績報表分析"],
+    keywords: "傳直銷系統, MLM系統, 直銷軟體, 會員管理",
+    featured: false,
+  },
+  {
+    icon: Code2,
+    title: "AI 輔助軟體開發",
+    description: "運用 AI 技術加速軟體開發流程，從需求分析、程式撰寫到測試部署，提供高效率、高品質的客製化軟體開發服務。",
+    features: ["AI 程式生成", "客製化系統開發", "快速原型設計"],
+    keywords: "AI軟體開發, AI輔助開發, 客製化軟體, 程式開發, AI編程",
+    featured: false,
+  },
+  {
+    icon: Search,
+    title: "網站 SEO 優化",
+    description: "提升網站 Google 搜尋排名，增加自然流量。包含技術 SEO、內容優化、關鍵字研究等完整服務。",
+    features: ["關鍵字優化", "技術SEO診斷", "內容優化策略"],
+    keywords: "SEO優化, 搜尋引擎優化, Google排名, 網站優化",
+    featured: false,
+  },
+  {
+    icon: Bot,
+    title: "AI SEO 智能優化",
+    description: "運用人工智慧技術自動化分析與優化流程。針對 ChatGPT、Perplexity、Google AI Overview 等 AI 搜尋引擎進行智能優化。",
+    features: ["AI 內容生成", "智能排名分析", "AI搜尋引擎優化"],
+    keywords: "AI SEO, 人工智慧SEO, ChatGPT優化, AI搜尋優化",
+    featured: false,
+  },
+  {
+    icon: Brain,
+    title: "GEO 生成式引擎優化",
+    description: "針對 ChatGPT、Perplexity、Google AI Overview 等生成式 AI 搜尋引擎進行深度優化，讓您的企業在 AI 搜尋時代獲得最大曝光。",
+    features: ["AI 搜尋引擎優化", "生成式內容策略", "品牌 AI 能見度提升"],
+    keywords: "GEO, 生成式引擎優化, AI SEO, ChatGPT優化, Perplexity優化",
+    featured: false,
+  },
+  {
+    icon: Target,
+    title: "AEO 答案引擎優化",
+    description: "優化網站內容以獲得精選摘要與零點擊搜尋結果。針對語音搜尋、知識圖譜與答案引擎進行結構化資料標記與內容優化。",
+    features: ["精選摘要優化", "結構化資料標記", "語音搜尋優化"],
+    keywords: "AEO, 答案引擎優化, 精選摘要, 語音搜尋, 零點擊搜尋",
+    featured: false,
+  },
 ];
 
 const Services = () => {
@@ -99,7 +99,7 @@ const Services = () => {
             <span className="gradient-text-wide">專業服務項目</span>
           </h2>
           <p className="text-muted-foreground text-lg">
-            九大核心服務，涵蓋SEO、GEO、AEO優化與ERP、POS系統開發，全方位滿足您的數位轉型需求
+            九大核心服務，涵蓋ERP、POS系統開發與客製化平台開發，以及SEO、GEO、AEO優化，全方位滿足您的數位轉型需求
           </p>
         </header>
 
