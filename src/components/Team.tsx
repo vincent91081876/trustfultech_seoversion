@@ -28,6 +28,7 @@ const team = [
     role: "AI 內容策略師",
     bio: "專注於生成式AI內容策略，擅長打造符合AI搜尋引擎偏好的優質內容。",
     initial: "V",
+    photo: "/team/vincent-avatar.png",
   },
   {
     name: "jecy",
